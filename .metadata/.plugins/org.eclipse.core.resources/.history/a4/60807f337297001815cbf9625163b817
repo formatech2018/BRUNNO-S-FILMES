@@ -1,0 +1,12 @@
+.footer{
+	background-color: black;
+	color: white;
+	margin-top: 0.5%;
+	padding-top: 0.5%;
+}
+
+.footer p{
+	text-align: center;
+	font-family: Bookman Old Style;
+	line-height: 8px;
+}

@@ -1,0 +1,10 @@
+#titulo-cadastro, #titulo-dados-pessoais{
+	font-size: 25px;
+	font-family: Bookman Old Style;
+	text-shadow: 5px 5px 5px rbga(0,0,0,0.5);
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+	margin-top: 0.2%;
+}
+#dados-pessoais{
+	margin-top: 2%;
+}

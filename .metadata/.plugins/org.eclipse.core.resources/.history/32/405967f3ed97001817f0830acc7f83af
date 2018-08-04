@@ -1,0 +1,21 @@
+<h1>Cadastro de Usuário</h1>
+
+<form>
+	<div class="row">
+		<div class="col">
+			<label for="colFormLabel" class="col-sm-2 col-form-label">Nome</label>
+			<input type="text" name="nome" class="form-control"
+				placeholder="Digite seu nome">
+		</div>
+		<div class="col">
+			<label for="colFormLabel" class="col-sm-2 col-form-label">Email</label>
+			<input type="text" name="email" class="form-control"
+				placeholder="Digite seu email">
+		</div>
+		<div class="col">
+			<label for="colFormLabel" class="col-sm-2 col-form-label">Cpf</label>
+			<input type="text" name="cpf" class="form-control"
+				placeholder="Digite seu cpf">
+		</div>
+	</div>
+</form>

@@ -1,0 +1,13 @@
+#titulo-cadastro, #titulo-dados-pessoais, #titulo-segurança{
+	font-size: 25px;
+	font-family: Bookman Old Style;
+	text-shadow: 5px 5px 5px rbga(0,0,0,0.5);
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+	margin-top: 0.2%;
+}
+#dados-pessoais, #seguranca{
+	margin-top: 2%;
+}
+#formulario-cadastro{
+	font-family: Bookman Old Style;
+}

@@ -1,0 +1,5 @@
+package br.eti.tiagosousa.springmvc.controller;
+
+public class HomeController {
+
+}

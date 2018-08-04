@@ -1,0 +1,52 @@
+<h1 id="titulo-cadastro">Cadastro de Usuário</h1>
+
+<h2>Dados Pessoais</h2>
+
+<form>
+	<div class="row">
+		<div class="col">
+			<label for="colFormLabel" class="col-sm-2 col-form-label">Nome</label>
+			<input type="text" name="nome" class="form-control"
+				placeholder="Digite seu nome">
+		</div>
+		<div class="col">
+			<label for="colFormLabel" class="col-sm-2 col-form-label">Email</label>
+			<input type="text" name="email" class="form-control"
+				placeholder="Digite seu email">
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col">
+			<label for="colFormLabel" class="col-sm-2 col-form-label">Cpf</label>
+			<input type="text" id="cpf" class="form-control"
+				placeholder="Digite seu Cpf">
+		</div>
+		<div class="col">
+			<label for="colFormLabel" class="col-sm-2 col-form-label">Sexo</label>
+			<select class="custom-select">
+				<option selected>Escolha seu sexo</option>
+				<option value="masculino">Masculino</option>
+				<option value="Feminino">Feminino</option>
+
+			</select>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col">
+			<label for="colFormLabel" class="col-sm-4 col-form-label">Data de Nascimento</label>
+			<input type="date" name="nascimento" class="form-control"
+				placeholder="Digite sua data de nascimento">
+		</div>
+		<div class="col">
+			<label for="colFormLabel" class="col-sm-2 col-form-label">Celular</label>
+			<input type="text" id="celular" name="celular" class="form-control"
+				placeholder="Digite o número do seu celular">
+		</div>
+	</div>
+
+
+
+
+</form>
