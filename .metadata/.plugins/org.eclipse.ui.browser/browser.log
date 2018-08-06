@@ -341,3 +341,10 @@ ago 04, 2018 10:43:31.29 [4724:3452:0804/104331.289:ERROR:in_progress_cache_impl
 ago 04, 2018 10:43:31.29 [4724:3452:0804/104331.289:ERROR:in_progress_cache_impl.cc(191)] Cache is not initialized, cannot RetrieveEntry.
 ago 04, 2018 10:43:31.29 [4724:3452:0804/104331.289:ERROR:in_progress_cache_impl.cc(191)] Cache is not initialized, cannot RetrieveEntry.
 ago 04, 2018 10:44:16.16 Unable to read VR Path Registry from C:\Users\User\AppData\Local\openvr\openvrpaths.vrpath
+
+ago 05, 2018 20:29:05.17 NEW SESSION
+ago 05, 2018 20:29:05.17 [2628:2696:0805/202905.171:ERROR:install_util.cc(603)] Failed to read HKLM\SOFTWARE\Policies\Google\Chrome\MachineLevelUserCloudPolicyEnrollmentToken: O sistema não pode encontrar o arquivo especificado. (0x2)
+ago 05, 2018 20:29:05.18 [2628:2696:0805/202905.172:ERROR:configuration_policy_handler_list.cc(91)] Unknown policy: EnableCommonNameFallbackForLocalAnchors
+ago 05, 2018 20:29:05.23 [2628:2696:0805/202905.232:ERROR:configuration_policy_handler_list.cc(91)] Unknown policy: EnableCommonNameFallbackForLocalAnchors
+ago 05, 2018 20:29:50.34 Unable to read VR Path Registry from C:\Users\User\AppData\Local\openvr\openvrpaths.vrpath
+ago 05, 2018 21:20:54.58 [2628:2696:0805/212054.579:ERROR:textfield.cc(1754)] NOT IMPLEMENTED

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;sistema.filmes/src/main/webapp/resources/html/cadastro_usuario.html&apos; to &apos;scripts_cadastro_usuario.html&apos;" description="Rename resource &apos;cadastro_usuario.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/resources/html/cadastro_usuario.html" name="scripts_cadastro_usuario.html" stamp="1533515619888" updateReferences="true"/>
+</session>

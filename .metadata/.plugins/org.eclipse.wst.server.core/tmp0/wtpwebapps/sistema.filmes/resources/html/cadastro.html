@@ -46,6 +46,86 @@
 				placeholder="Digite o número do seu celular">
 		</div>
 	</div>
+
+	<div id="endereco">
+		<h2 id="titulo-endereco">Endereço</h2>
+	</div>
+	
+	<div class="row">
+		<div class="col-sm-4">
+			<label for="colFormLabel" class="col-sm-2 col-form-label">Cep</label>
+			<input type="text" id="cep" name="cep" class="form-control cep"
+				placeholder="Digite o cep da sua rua">
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col">
+			<label for="colFormLabel" class="col-sm-2 col-form-label">Rua</label>
+			<input type="text" id="rua" name="nome" class="form-control"
+				placeholder="Digite o nome da sua rua">
+		</div>
+		<div class="col">
+			<label for="colFormLabel" class="col-sm-2 col-form-label">Complemento</label>
+			<input type="text" id="complemento" name="complemento" class="form-control"
+				placeholder="Digite o complemento do seu endereço">
+		</div>
+		<div class="col">
+			<label for="colFormLabel" class="col-sm-2 col-form-label">Número</label>
+			<input type="number" id="numero" name="numero" class="form-control"
+				placeholder="Digite o número do seu endereço">
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col">
+			<label for="colFormLabel" class="col-sm-2 col-form-label">Bairro</label>
+			<input type="text" id="bairro" name="bairro" class="form-control"
+				placeholder="Digite o nome do seu bairro">
+		</div>
+		<div class="col">
+			<label for="colFormLabel" class="col-sm-2 col-form-label">Cidade</label>
+			<input type="text" id="cidade" name="cidade" class="form-control"
+				placeholder="Digite o nome da sua cidade">
+		</div>
+		<div class="col">
+
+			<label for="colFormLabel" class="col-sm-2 col-form-label">Estado</label> <select id="estado"
+				class="custom-select" name="estado">
+				<option selected value="">Escolha...</option>
+				<option value="AC">Acre</option>
+				<option value="AL">Alagoas</option>
+				<option value="AP">Amapá</option>
+				<option value="AM">Amazonas</option>
+				<option value="BA">Bahia</option>
+				<option value="CE">Ceará</option>
+				<option value="DF">Distrito Federal</option>
+				<option value="ES">Espirito Santo</option>
+				<option value="GO">Goiás</option>
+				<option value="MA">Maranhão</option>
+				<option value="MT">Mato Grosso</option>
+				<option value="MS">Mato Grosso do Sul</option>
+				<option value="MG">Minas Gerais</option>
+				<option value="PA">Pará</option>
+				<option value="PB">Paraíba</option>
+				<option value="PR">Paraná</option>
+				<option value="PE">Pernambuco</option>
+				<option value="PI">Piauí</option>
+				<option value="RJ">Rio de Janeiro</option>
+				<option value="RN">Rio Grande do Norte</option>
+				<option value="RS">Rio Grande do Sul</option>
+				<option value="RO">Rondônia</option>
+				<option value="RR">Roraima</option>
+				<option value="SC">Santa Catarina</option>
+				<option value="SP">São Paulo</option>
+				<option value="SE">Sergipe</option>
+				<option value="TO">Tocantins</option>
+
+			</select>
+
+		</div>
+	</div>
+
 	<div id="seguranca">
 		<h2 id="titulo-segurança">Segurança</h2>
 	</div>
@@ -53,13 +133,13 @@
 	<div class="row">
 		<div class="col">
 			<label for="colFormLabel" class="col-sm-2 col-form-label">Senha</label>
-			<input type="password" name="senha" class="form-control"
+			<input type="password" name="senha" id="senha" class="form-control"
 				placeholder="Digite sua senha">
 		</div>
 		<div class="col">
 			<label for="colFormLabel" class="col-sm-6 col-form-label">Confirme
 				sua Senha</label> <input type="password" name="senha-novamente"
-				class="form-control" placeholder="Digite sua senha novamente">
+				 id="senha-novamente" class="form-control" placeholder="Digite sua senha novamente">
 		</div>
 	</div>
 

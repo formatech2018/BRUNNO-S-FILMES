@@ -10,4 +10,6 @@
 
 <jsp:include page = "resources/html/scripts.html"/>	
 
+<jsp:include page = "resources/html/end.html"/>	
+
 
